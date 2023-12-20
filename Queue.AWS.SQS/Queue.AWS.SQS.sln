@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue.AWS.SQS", "Queue.AWS.SQS.csproj", "{BC3D47C6-B0AB-44D5-BF94-9E59FE684C4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DB877F35-38AF-4001-AD26-A3AB4E7C98CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F1C90650-957D-4DC5-95FE-55988A551E8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FBFF2E23-41A0-44E8-9392-5BB1F4659FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue.AWS.SQS.Domain", "..\Queue.AWS.SQS.Domain\Queue.AWS.SQS.Domain.csproj", "{D9C80CD4-9986-4F8E-86A1-D61D7ADE1162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue.AWS.SQS.Platform", "..\Queue.AWS.SQS.Platform\Queue.AWS.SQS.Platform.csproj", "{A05FD45D-40A0-4020-983D-DBA829F8A27D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC3D47C6-B0AB-44D5-BF94-9E59FE684C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3D47C6-B0AB-44D5-BF94-9E59FE684C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3D47C6-B0AB-44D5-BF94-9E59FE684C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3D47C6-B0AB-44D5-BF94-9E59FE684C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C80CD4-9986-4F8E-86A1-D61D7ADE1162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C80CD4-9986-4F8E-86A1-D61D7ADE1162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C80CD4-9986-4F8E-86A1-D61D7ADE1162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C80CD4-9986-4F8E-86A1-D61D7ADE1162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A05FD45D-40A0-4020-983D-DBA829F8A27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05FD45D-40A0-4020-983D-DBA829F8A27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05FD45D-40A0-4020-983D-DBA829F8A27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05FD45D-40A0-4020-983D-DBA829F8A27D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC3D47C6-B0AB-44D5-BF94-9E59FE684C4C} = {DB877F35-38AF-4001-AD26-A3AB4E7C98CD}
+		{D9C80CD4-9986-4F8E-86A1-D61D7ADE1162} = {FBFF2E23-41A0-44E8-9392-5BB1F4659FCD}
+		{A05FD45D-40A0-4020-983D-DBA829F8A27D} = {F1C90650-957D-4DC5-95FE-55988A551E8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C38B817B-A586-4877-A5B6-DC117AEDDD3F}
+	EndGlobalSection
+EndGlobal
